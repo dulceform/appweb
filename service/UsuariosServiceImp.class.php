@@ -1,7 +1,7 @@
 <?php
     require "../config/configdb.class.php";
     require "../config/conexion.class.php";
-    require "IntUsuariosService.class.php";
+    require "intUsuariosService.class.php";
     require "../model/usuarios.class.php";
 
     class UsuariosServiceImp implements IntUsuariosService{
